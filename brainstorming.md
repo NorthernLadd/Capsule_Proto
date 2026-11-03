@@ -16,7 +16,7 @@
 
 ### App Evaluation
 - **Category:** Education / Discussion
-- **Mobile:** Users can read articles, select passages, and rate arguments on their phone during short study sessions. Sharing an article link into the app could make it easier to start an evaluation.
+- **Mobile:** Users can read articles, select passages, and rate arguments on their phone during short study sessions. Sharing an article link into the app could make it easier to start an evaluation. Furthermore the app can function as a microphone during live debates and record the debate for future grading
 - **Story:** Users can practice critical thinking by breaking an argument into individual points, rating their strength, and explaining their reasoning. Ratings reflect users' opinions rather than verified measures of accuracy.
 - **Market:** The intended audience is students, debate club members, and readers who want to examine arguments more carefully. A classroom or debate club could provide an initial group of users.
 - **Habit:** Users could return for class assignments, debate practice, or articles they want to analyze. Regular use would depend on having new material and a reason to review other users' evaluations.
@@ -44,4 +44,5 @@
 
 <br>
 
-
+The app we chose
+# **Moddit**
