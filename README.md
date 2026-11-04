@@ -97,14 +97,14 @@ Moddit is an app that allows users to post their cars and the modifications they
   - Back -> Previous screen.
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section] <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="Wireframe_Images/WF1.png" alt="Moddit wireframes, page 1" width="600">
+
+<img src="Wireframe_Images/WF2.png" alt="Moddit wireframes, page 2" width="600">
 
 <br>
 
 <br>
 
 ### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 <br>
