@@ -12,6 +12,7 @@
 
 Moddit is an app that allows users to post their cars and the modifications they have done to them. Moddit allows users to create account to keep track of not only their cars, but also be able to have a list of modifications they wish to make to their cars and plan for their future modifications. Users are able to comment under other users' posts to ask for help, suggest any advice, or simply write a comment about the car. Users can be able to personalize their profile and add their own touch. 
 
+
 ## App Evaluation
 
 [Evaluation of your app across the following attributes]
