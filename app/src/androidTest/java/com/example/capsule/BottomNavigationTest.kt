@@ -8,6 +8,7 @@ import androidx.test.espresso.action.ViewActions.replaceText
 import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
+import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.junit.Assert.assertEquals
@@ -33,6 +34,10 @@ class BottomNavigationTest {
                     assertEquals(fragmentClass, visible.single().javaClass)
                 }
             }
+            onView(withId(R.id.nav_profile)).perform(click())
+            onView(withId(R.id.userName)).check(matches(isDisplayed()))
+            onView(withId(R.id.userName)).perform(replaceText("Test profile"), closeSoftKeyboard())
+            onView(withId(R.id.nav_create)).perform(click())
             onView(withId(R.id.capsule_name)).perform(replaceText("Campus memory"), closeSoftKeyboard())
             onView(withId(R.id.nav_map)).perform(click())
             onView(withId(R.id.nav_create)).perform(click())
@@ -43,6 +48,8 @@ class BottomNavigationTest {
                 assertEquals(R.id.nav_create, activity.findViewById<BottomNavigationView>(R.id.bottomNav).selectedItemId)
                 assertEquals(1, activity.supportFragmentManager.fragments.count { !it.isHidden })
             }
+            onView(withId(R.id.nav_profile)).perform(click())
+            onView(withId(R.id.userName)).check(matches(withText("Test profile")))
         }
     }
 }
