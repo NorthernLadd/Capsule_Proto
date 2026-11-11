@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.Lifecycle
 import com.example.capsule.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -38,8 +39,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showFragment(fragment: Fragment) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragmentContainer, fragment)
-            .commit()
+        val tag = fragment.javaClass.name
+        val destination = supportFragmentManager.findFragmentByTag(tag) ?: fragment
+        val transaction = supportFragmentManager.beginTransaction()
+        supportFragmentManager.fragments.filter { it != destination }.forEach {
+            transaction.hide(it).setMaxLifecycle(it, Lifecycle.State.STARTED)
+        }
+        if (destination.isAdded) {
+            transaction.show(destination)
+        } else {
+            transaction.add(R.id.fragmentContainer, destination, tag)
+        }
+        transaction.setMaxLifecycle(destination, Lifecycle.State.RESUMED).commitNow()
     }
 }
