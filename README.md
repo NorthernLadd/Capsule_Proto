@@ -98,3 +98,7 @@ These features build on the project's [user stories](userstories.md).
 
 
 <img src="Wireframe_Images/Capsule_Wireframes.png" alt="Capsule wireframes showing My Capsules, User Profile, Explore Map, and Create Capsule" width="900">
+
+# Milestone 2 video
+
+<img src="https://i.imgur.com/8S7gC1f.gif" alt="Milestone 2 video">
