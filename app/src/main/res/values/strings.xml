@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Capsule</string>
+    <string name="create_capsule">Create Capsule</string>
+    <string name="capsule_name">Name</string>
+    <string name="choose_unlock_date">Choose unlock date</string>
+    <string name="unlock_date_value">Unlock date: %1$s</string>
+    <string name="unlock_help">Choose a future date for your memory to open.</string>
+    <string name="upload_image">Upload image</string>
+    <string name="selected_image">Capsule image preview</string>
+    <string name="choose_image">Choose image</string>
+    <string name="description">Description</string>
 </resources>
