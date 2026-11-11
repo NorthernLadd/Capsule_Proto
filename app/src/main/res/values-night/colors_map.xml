@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mock map (dark mode) -->
+    <color name="map_street">#FF3A3F45</color>
+    <color name="map_block">#FF24282D</color>
+    <color name="map_park">#FF22382A</color>
+    <color name="map_water">#FF1E3346</color>
+    <color name="map_avenue">#FF5A5236</color>
+    <color name="map_avenue_edge">#FF443E28</color>
+    <color name="map_label">#FF9AA0A6</color>
+    <color name="map_user">#FF8AB4F8</color>
+
+    <!-- Map status pill (dark mode) -->
+    <color name="status_unlocked_bg">#FF4A2E00</color>
+    <color name="status_unlocked_fg">#FFFFDDB0</color>
+    <color name="status_locked_bg">#FF333C45</color>
+    <color name="status_locked_fg">#FFD5DEE7</color>
+</resources>
