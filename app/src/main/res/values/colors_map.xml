@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mock map -->
+    <color name="map_street">#FFFFFFFF</color>
+    <color name="map_block">#FFECE9E3</color>
+    <color name="map_park">#FFCDE6C3</color>
+    <color name="map_water">#FFBFDCF0</color>
+    <color name="map_avenue">#FFFFEDB8</color>
+    <color name="map_avenue_edge">#FFE8D08A</color>
+    <color name="map_label">#FF7C8086</color>
+    <color name="map_user">#FF1A73E8</color>
+
+    <!-- Map pins -->
+    <color name="pin_unlocked">#FFE8890C</color>
+    <color name="pin_locked">#FF5C6B79</color>
+
+    <!-- Map status pill -->
+    <color name="status_unlocked_bg">#FFFFE6C2</color>
+    <color name="status_unlocked_fg">#FF6B3E00</color>
+    <color name="status_locked_bg">#FFE3E8EE</color>
+    <color name="status_locked_fg">#FF36424D</color>
+</resources>

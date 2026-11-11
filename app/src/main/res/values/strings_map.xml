@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Map screen -->
+    <string name="map_title">Explore Map</string>
+    <string name="map_search_hint">Search capsules or people</string>
+    <string name="map_filter_all">All</string>
+    <string name="map_filter_unlocked">Unlocked</string>
+    <string name="map_filter_locked">Locked</string>
+    <string name="map_content_description">Map of nearby capsules</string>
+    <string name="map_count_none">No capsules match</string>
+    <string name="map_count_one">1 capsule nearby</string>
+    <string name="map_count_many">%1$d capsules nearby</string>
+    <string name="map_status_locked">Locked</string>
+    <string name="map_status_unlocked">Unlocked</string>
+    <string name="map_left_by">Left by %1$s</string>
+    <string name="map_hint_ready">You\'re here and it\'s unlocked. Open it!</string>
+    <string name="map_hint_too_far">Get within 0.1 mi to open this capsule.</string>
+    <string name="map_hint_locked_nearby">You\'re in the right spot. Come back %1$s.</string>
+    <string name="map_hint_locked_far">Opens %1$s. Visit the spot once it unlocks.</string>
+    <string name="map_action_open">Open capsule</string>
+    <string name="map_action_too_far">Too far away</string>
+    <string name="map_action_locked">Still locked</string>
+    <string name="map_action_save">Save</string>
+    <string name="map_action_saved">Saved</string>
+    <string name="map_action_close">Close</string>
+    <string name="map_open_coming_soon">Opening \"%1$s\" (Opened Capsule screen coming soon)</string>
+</resources>
