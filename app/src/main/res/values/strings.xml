@@ -1,3 +1,10 @@
-<resources>
-    <string name="app_name">Capsule</string>
+<resources><string name="app_name">Capsule</string>
+    <string name="home">Home</string>
+    <string name="home_here">Home here</string>
+    <string name="profile">Profile</string>
+    <string name="profile_here">Profile here</string>
+    <string name="map">Map</string>
+    <string name="map_here">Map here</string>
+    <string name="create">Create</string>
+    <string name="create_here">Create here</string>
 </resources>
