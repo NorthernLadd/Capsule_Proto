@@ -9,4 +9,11 @@
     <string name="selected_image">Capsule image preview</string>
     <string name="choose_image">Choose image</string>
     <string name="description">Description</string>
+    <string name="home">Home</string>
+    <string name="home_here">Home here</string>
+    <string name="profile">Profile</string>
+    <string name="profile_here">Profile here</string>
+    <string name="map">Map</string>
+    <string name="map_here">Map here</string>
+    <string name="create">Create</string>
 </resources>
