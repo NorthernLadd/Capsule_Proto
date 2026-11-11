@@ -35,25 +35,25 @@ These features build on the project's [user stories](userstories.md).
 
 **Required Features**
 
-1. As a user, I want to create an account and log in so that my profile and capsules are saved between visits.
-2. As a user, I want to customize my profile image and description and see how many capsules I've found and created.
-3. As a user, I want to create a time capsule at my current location.
-4. As a user, I want to add a title, message, and photos to my capsule so that I can preserve a memory for someone to discover.
-5. As a user, I want to choose a future unlock date so that my capsule's contents stay hidden until that date.
-6. As a user, I want to view nearby capsules on a map so that I can discover capsules around me.
-7. As a user, I want to see a capsule's title, distance from me, and unlock date so that I can plan which capsules to visit.
-8. As a user, I want to open an unlocked capsule when I am near its location so that discovering it involves visiting the place where it was left.
-9. As a user, I want to see how much time remains before a locked capsule opens so that I know when to return.
-10. As a user, I want to save capsules I want to visit so that I can find them again later.
-11. As a user, I want to view my opened capsules so that I can revisit their messages and photos.
-12. As a user, I want to view and manage the capsules I've created so that I can track their locations and unlock dates.
-13. As a user, I want to delete a capsule I've created if I no longer want to share it.
+1. [ ] As a user, I want to create an account and log in so that my profile and capsules are saved between visits.
+2. [ x ] As a user, I want to customize my profile image and description and see how many capsules I've found and created.
+3. [ ] As a user, I want to create a time capsule at my current location.
+4. [ x ] As a user, I want to add a title, message, and photos to my capsule so that I can preserve a memory for someone to discover.
+5. [ x ] As a user, I want to choose a future unlock date so that my capsule's contents stay hidden until that date.
+6. [ ] As a user, I want to view nearby capsules on a map so that I can discover capsules around me.
+7. [ ] As a user, I want to see a capsule's title, distance from me, and unlock date so that I can plan which capsules to visit.
+8. [ ] As a user, I want to open an unlocked capsule when I am near its location so that discovering it involves visiting the place where it was left.
+9. [ ] As a user, I want to see how much time remains before a locked capsule opens so that I know when to return.
+10. [ ] As a user, I want to save capsules I want to visit so that I can find them again later.
+11. [ ] As a user, I want to view my opened capsules so that I can revisit their messages and photos.
+12. [ ] As a user, I want to view and manage the capsules I've created so that I can track their locations and unlock dates.
+13. [ ] As a user, I want to delete a capsule I've created if I no longer want to share it.
 
 **Optional Features**
 
-1. As a user, I want to receive a notification when a saved capsule unlocks so that I know when I can visit it.
-2. As a user, I want to filter the map by locked or unlocked capsules so that I can choose what to explore.
-3. As a user, I want to sort saved capsules by distance or unlock date so that I can plan my next visit.
+1. [ ] As a user, I want to receive a notification when a saved capsule unlocks so that I know when I can visit it.
+2. [ ] As a user, I want to filter the map by locked or unlocked capsules so that I can choose what to explore.
+3. [ ] As a user, I want to sort saved capsules by distance or unlock date so that I can plan my next visit.
 
 ### 2. Screen Archetypes
 
