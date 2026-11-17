@@ -23,13 +23,13 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         if (savedInstanceState == null) {
-            showFragment(HomeFragment())
+            showFragment(DiscoveryFragment())
         }
         binding.bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
-                R.id.nav_home -> showFragment(HomeFragment())
+                R.id.nav_home -> showFragment(DiscoveryFragment())
                 R.id.nav_profile -> showFragment(ProfileFragment())
-                R.id.nav_map -> showFragment(MapFragment())
+                R.id.nav_map -> showFragment(DiscoveryFragment())
                 R.id.nav_create -> showFragment(CreateFragment())
                 else -> return@setOnItemSelectedListener false
             }

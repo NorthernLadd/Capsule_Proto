@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Capsule</string>
+    <string name="app_name">Capsule Prototype</string>
     <string name="create_capsule">Create Capsule</string>
     <string name="capsule_name">Name</string>
     <string name="choose_unlock_date">Choose unlock date</string>

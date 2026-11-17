@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.capsule"
+        applicationId = "com.example.capsule.prototype"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
